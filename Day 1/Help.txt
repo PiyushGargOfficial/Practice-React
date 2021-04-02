@@ -3,4 +3,4 @@ Date: 2/4 2021
 1. Installation.
 2. Learning about files.
 3. Deleting files that are not needed at this level.
-4. 
+4. Writing 'Hello World'.
