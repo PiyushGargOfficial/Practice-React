@@ -1,4 +1,12 @@
-var React = require('react');
-var ReactDOM = require('react-dom');
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-ReactDOM.render(<h1>Hello World</h1>, document.getElementById('root'));
+const firstName = 'Piyush';
+const lastName = 'Garg';
+
+ReactDOM.render(
+<>
+    <h1>{`${firstName} ${lastName}`}</h1>
+    <p>I'm practicing react.</p>
+</>
+ , document.getElementById('root'));
