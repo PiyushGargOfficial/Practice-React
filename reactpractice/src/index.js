@@ -1,12 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './App'
 
-const firstName = 'Piyush';
-const lastName = 'Garg';
 
 ReactDOM.render(
-<>
-    <h1>{`${firstName} ${lastName}`}</h1>
-    <p>I'm practicing react.</p>
-</>
+<App />
  , document.getElementById('root'));
