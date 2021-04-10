@@ -1,5 +1,5 @@
 import './index.css';
-import Heading from './Components/Heading';
+import * as All from './Components/Heading';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
@@ -28,7 +28,8 @@ else{
 function App() {
     return (
         <>
-            <Heading />
+            <All.default />
+            <div>{All.favColor}</div>
             <div>Hi, Good {greeting}</div>
             <h1 style={heading1}>{`${firstName} ${lastName}`}</h1>
             <p>I'm practicing react.</p>
