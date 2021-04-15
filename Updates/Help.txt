@@ -1,0 +1,68 @@
+Date: 2/4/2021
+
+1. Installation.
+2. Learning about files.
+3. Deleting files that are not needed at this level.
+4. Writing 'Hello World'.
+
+Date: 6/4/2021
+
+1. Introduction to JSX.
+2. Render Multiple Elements.
+
+[<h1>Piyush Garg</h1>,
+    <p>My name is Piyush Garg</p>
+] 
+
+3. React Fragments
+Removes the additional div we need to enclose the adjacent elements.
+
+4. JSX Expressions
+   <h1>{firstName} {lastName}</h1>
+
+5. Template Literals
+<h1>{`${firstName} ${lastName}`}</h1>
+
+6. Challenge:
+const date = new Date().getLocaleDateString()
+const time = new Date().getLocaleTimeString()
+
+7. JSX Attributes
+Attributes are to be written in camel-case.
+contentEditable
+
+8. Styling in React
+Class is a reserved keyword by react. So, we use className.
+ 
+9. Internal CSS
+    <h1 style={heading}>{`${firstName} ${lastName}`}</h1>
+
+10. Functional Components
+
+11. Export Default
+There can be only one variable/value exporting as default.
+For exporting other values, you need to directly export them using parathesis.
+export {favYT}; //recommended
+import * as All from './Components/Heading';
+
+12. Props
+13. Map()
+const newData = studentData.map((cvalue) => {
+    return `My name is ${cvalue.name}`
+})
+
+14. If Else
+15. Ternary Operators
+Condition? True : False
+
+16. Array Destructuring
+const myfavprog = ['js', 'html', 'css'];
+
+let [top1,top2,top3] = myfavprog;
+
+17. Forms
+
+
+
+
+ 

@@ -7,3 +7,9 @@
 .heading{
     color: green;
 }
+
+.center{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+}
