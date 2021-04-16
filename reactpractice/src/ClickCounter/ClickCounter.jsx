@@ -4,8 +4,6 @@ import React, {useState} from 'react';
 
 const ClickCounter = () => {
 
-const state = useState();
-
 var [count, setCount] = useState(5);
 
 const IncNum = () => {

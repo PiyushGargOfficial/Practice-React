@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import {Add, Sub, Divide, Multiply} from './Operations';
 import styleCalc from './Styling'
 

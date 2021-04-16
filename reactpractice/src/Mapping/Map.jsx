@@ -1,4 +1,3 @@
-import React from 'react';
 
 var cars = ["Saab", "Volvo", "BMW"];
 

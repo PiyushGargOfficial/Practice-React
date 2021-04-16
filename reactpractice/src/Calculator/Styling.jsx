@@ -1,4 +1,3 @@
-import React from 'react';
 
 const styleCalc = {
 width: '100vw',

@@ -1,12 +1,16 @@
 const Navbar = () => {
     return ( 
-        <div className="navbar">
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Blog</li>
-            </ul>
-        </div>
+        <nav className="navbar">
+      <h1>The Blog</h1>
+      <div className="links">
+        <a ef="/">Home</a>
+        <a href="/create" style={{ 
+          color: 'white', 
+          backgroundColor: '#f1356d',
+          borderRadius: '8px' 
+        }}>New Blog</a>
+      </div>
+    </nav>
      );
 }
  
