@@ -70,7 +70,10 @@ useEffect: Runs on every new render.
            essentially changing the state again. There are ways around it. But try to avoid.
         
             useEffect(()=>{},[]) : Only runs it once after the first render.
-
+    
+19.JSON Server
+20. Fetch Requests
+21. Custom Hooks
 
 
 
